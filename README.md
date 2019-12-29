@@ -10,7 +10,7 @@ Docker image with Android SDK and Flutter.
 ## Usage
 
 ```sh
-docker run --rm \
+docker run --rm -it \
   -v $PWD:$PWD
   -w $PWD
   yeechen/flutter-android:1.12.13+hotfix.5 /bin/bash
